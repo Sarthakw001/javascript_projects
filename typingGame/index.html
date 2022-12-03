@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Typing ANALYSIS</title>
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="heading">Typing Game : Check your typing speed</h1>
+
+      <div class="wrapper">
+        <p>
+          Now is the winter of our discontent Made glorious summer by this sun
+          of York; And all the clouds that lour'd upon our house In the deep
+          bosom of the ocean buried. Now are our brows bound with victorious
+          wreaths; Our bruised arms hung up for monuments; Our stern alarums
+          changed to merry meetings, Our dreadful marches to delightful
+          measures.
+        </p>
+        <p style="font-size: 35px; text-align: center">
+          Start typing the above text below :
+        </p>
+        <span id="countdown"></span>
+      </div>
+
+      <h5 id="startTyping" style="color: #fff; text-align: center"></h5>
+
+      <div class="textArea">
+        <textarea
+          id="input"
+          cols="100"
+          rows="7"
+          placeholder="Just click on start typing & timer will Start"
+        ></textarea>
+      </div>
+
+      <div class="displayCount">
+        <button id="btnn">Start the App</button>
+        <h3>Typing Speed:<span id="typingSpeed"></span></h3>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

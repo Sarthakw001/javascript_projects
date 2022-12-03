@@ -1,0 +1,41 @@
+* {
+  background-color: black;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.red {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+}
+.purple {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  border-radius: 50%;
+}
+.violet {
+  width: 150px;
+  height: 150px;
+  background-color: violet;
+  border-radius: 50%;
+}
+.green {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.center {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  border-radius: 50%;
+}
